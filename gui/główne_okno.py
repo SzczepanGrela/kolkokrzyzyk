@@ -20,7 +20,7 @@ class GlowneOkno(QMainWindow):
         self.przygotuj_interfejs_uzytkownika()
         
     def przygotuj_interfejs_uzytkownika(self):
-        self.setWindowTitle("AI - Kolko i Krzyzyk (Tic-Tac-Toe)")
+        self.setWindowTitle("AI - Kolko i Krzyzyk")
         self.setMinimumSize(500, 600)
         
         centralny_widzet = QWidget()
@@ -51,7 +51,7 @@ class GlowneOkno(QMainWindow):
         self.tryby_gry_lista_rozwijana.currentTextChanged.connect(self.tryb_gry_zmieniony.emit)
         panel_sterowania.addWidget(self.tryby_gry_lista_rozwijana)
         
-        etykieta_rozmiaru = QLabel("Rozmiar planszy: 3x3 (Tic-Tac-Toe)")
+        etykieta_rozmiaru = QLabel("Rozmiar planszy: 3x3 (kólko i krzyżyk)")
         panel_sterowania.addWidget(etykieta_rozmiaru)
         
         panel_sterowania.addStretch()

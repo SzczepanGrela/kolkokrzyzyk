@@ -254,7 +254,7 @@ class KontrolerKolkoKrzyzyk:
 
 def wydrukuj_podsumowanie_projektu():
     print("\n" + "="*60)
-    print("🚀 KOMPLETNA IMPLEMENTACJA TIC-TAC-TOE AI")
+    print("🚀 KOMPLETNA IMPLEMENTACJA KÓŁKO I KRZYŻYK AI")
     print("🎯 Z NIEPOKONANYM Q-LEARNING")
     print("="*60)
     print("📋 Zaimplementowane wymagania projektu:")
