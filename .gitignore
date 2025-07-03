@@ -1,0 +1,14 @@
+/venv
+/macvenv
+/ai/q_tables/q_table_unbeatable_test/
+/ai/q_tables/q_table_unbeatable_v1/
+/ai/q_tables/q_table_unbeatable_noFallback/
+/phone_logic/twilio.json
+/ai/q_tables/q_table_unbeatable/
+/.venv/
+/ai/Omega/
+**/training.log
+/ai/q_tables/
+/q_tables/q_learning_table_1/model.pkl
+/Narzędzia/logs/
+.idea/vcs.xml
